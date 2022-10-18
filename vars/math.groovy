@@ -12,12 +12,6 @@ def mul(a,b)
 }
 def div(a,b)
 {
-  if ${b}==0
-  {
-  echo "Invalid Input"
-  }
-  else
-  {
   echo "The div of ${a} and ${b} is ${a/b}"
-  } 
-}
+} 
+
