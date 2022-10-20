@@ -14,4 +14,8 @@ def div(a,b)
 {
   echo "The div of ${a} and ${b} is ${a/b}"
 } 
+def git(repo)
+{
+  git "${repo}"
+}
 
