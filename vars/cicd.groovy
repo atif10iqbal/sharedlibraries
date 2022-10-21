@@ -10,7 +10,7 @@ def newMaven()
 
 def newDeploy(job,ip,context)
 {
-  sh "scp ${job}/webapp/target/webapp.war ubuntu@${ip}:/var/lib/tomcat9/webapps/${context}.war
+  sh "scp ${job}/webapp/target/webapp.war ubuntu@${ip}:/var/lib/tomcat9/webapps/${context}.war"
 }
 /*
 def git(repo)
